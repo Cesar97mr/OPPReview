@@ -6,7 +6,13 @@ let Samsung : Mobile = new Mobile("SAMSUNG","Galaxy 10","Samsung",64,"Blue",true
 console.log(Nokia);
 console.log(Iphone);
 console.log(Samsung);
+
 Nokia.setCameraNumber(4)
 Nokia.setIs5g(true);
+
 console.log(Nokia,Iphone,Samsung);
-console.log(Nokia.toString());
+let arrayMobiles:Mobile[] = [Nokia,Iphone,Samsung];
+
+console.log(Nokia.toString()+"\n");
+console.log(Iphone.toString()+"\n");
+console.log(Samsung.toString());
